@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Toggle Örneği</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+   
+    <! ul>li*10 diyince ul içinde on tane li etiketi oluşturuyor>
+    <button class="btn" data-target="#content" data-show="Show" data-hide="Hide">Hide</button> <! bu elementten bir tane var ise id kullanmak gerekir, eğer birden fazla olacaksa class kullanılır>
+    <br><br>
+    <div id="content">
+        Is this text visible or hidden?
+    </div>
+
+    <hr>
+
+    <button class="btn" data-target="#content2" data-show="Show" data-hide="Hide">Hide</button> <! bu elementten bir tane var ise id kullanmak gerekir, eğer birden fazla olacaksa class kullanılır>
+    <br><br>
+    <div id="content2">
+        Is this text visible or hidden?
+    </div>
+    <script src="./app.js"></script>
+    
+</body>
+</html>
