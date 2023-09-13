@@ -1,5 +1,5 @@
 .show {
-    display:contents;
+    display: block;
 }
 .hide {
     display: none;
